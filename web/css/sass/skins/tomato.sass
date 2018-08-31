@@ -1,0 +1,153 @@
+@import "../bourbon/bourbon"
+
+$color: #F90000 //Theme skin
+$main_color: #222
+$bg_dark: #000
+$br_light: #3B444A
+$color_logo: #fff
+$color_mnu: #61737D
+$text_color_l: #fff
+$text_color_d: #000
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+	background-color: #ccc
+
+a
+	color: $color
+
+p
+	color: $text_color_l
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.bg_dark
+	background-color: $bg_dark
+
+svg
+	path
+		fill: $color_logo
+
+.top_mnu
+	a:hover
+		color: $color_mnu
+		background-color: #fff
+		max-width: 130px
+		+kerning(3)
+		border: none
+
+.top_text
+	color: $text_color_l
+	p
+		color: $text_color_l
+		+kerning(3)
+
+.s_anim
+	color: $text_color_l
+
+.personal_header
+	+kerning(2)
+
+.s_descr
+	+kerning(3)
+	&::after
+		background-color: #FFF
+
+.s_anim_too
+	background-color: #000
+
+.s_gall
+	background-color: #000
+	color: $text_color_l
+	.s_descr::after
+		background-color: #fff
+
+.s_contacts
+	color: $text_color_l
+
+.footer_r
+	color: $text-color_l
+
+section
+	h3
+		+kerning(3)
+
+.s_anim
+	p:nth-child(even)
+		color: $color
+
+.anim_too_container
+	h3
+		+kerning(1)
+
+.anim_too_item
+	.year
+		background-color: $text_color_l
+		color: $text_color_d
+
+.s_gall
+	ul
+		//background-color: #000		
+	li
+		//color: $text_color_l
+		+kerning(2)
+		&.active
+			color: $color
+			border-bottom: 1px solid $text_color_l
+
+.gall_item .port_item_cont
+	h3
+		color: $text_color_l
+	a
+		background-color: transparent
+		color: $color
+		border-color: $color
+
+.podrt_descr
+	background-color: #700100
+	h3,
+	p
+		color: $text_color_l
+	.mfp-close
+		color: #000
+
+.contact_box
+	h3
+		color: $text_color_l
+
+.contacts_icon
+	color: #fff
+
+.contact_box .cont_box_hr
+	border: 1.5px solid #fff
+	border-radius: 50px
+
+.contact_box p a
+	font-weight: bold
+	font-size: 16px
+
+.pol1
+	color: #fff
+	background-color: #000
+
+form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		
+
+
+

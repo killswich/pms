@@ -1,0 +1,123 @@
+body {
+  color: #222;
+  letter-spacing: 1px;
+  background-color: #ccc; }
+
+a {
+  color: #F90000; }
+
+p {
+  color: #fff; }
+
+.color_element {
+  color: #F90000; }
+
+.color_bg {
+  background-color: #F90000; }
+
+.color_border {
+  border-color: #F90000; }
+
+.bg_dark {
+  background-color: #000; }
+
+svg path {
+  fill: #fff; }
+
+.top_mnu a:hover {
+  color: #61737D;
+  background-color: #fff;
+  max-width: 130px;
+  letter-spacing: 3px;
+  border: none; }
+
+.top_text {
+  color: #fff; }
+  .top_text p {
+    color: #fff;
+    letter-spacing: 3px; }
+
+.s_anim {
+  color: #fff; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.s_descr {
+  letter-spacing: 3px; }
+  .s_descr::after {
+    background-color: #FFF; }
+
+.s_anim_too {
+  background-color: #000; }
+
+.s_gall {
+  background-color: #000;
+  color: #fff; }
+  .s_gall .s_descr::after {
+    background-color: #fff; }
+
+.s_contacts {
+  color: #fff; }
+
+.footer_r {
+  color: #fff; }
+
+section h3 {
+  letter-spacing: 3px; }
+
+.s_anim p:nth-child(even) {
+  color: #F90000; }
+
+.anim_too_container h3 {
+  letter-spacing: 1px; }
+
+.anim_too_item .year {
+  background-color: #fff;
+  color: #000; }
+
+.s_gall li {
+  letter-spacing: 2px; }
+  .s_gall li.active {
+    color: #F90000;
+    border-bottom: 1px solid #fff; }
+
+.gall_item .port_item_cont h3 {
+  color: #fff; }
+.gall_item .port_item_cont a {
+  background-color: transparent;
+  color: #F90000;
+  border-color: #F90000; }
+
+.podrt_descr {
+  background-color: #700100; }
+  .podrt_descr h3,
+  .podrt_descr p {
+    color: #fff; }
+  .podrt_descr .mfp-close {
+    color: #000; }
+
+.contact_box h3 {
+  color: #fff; }
+
+.contacts_icon {
+  color: #fff; }
+
+.contact_box .cont_box_hr {
+  border: 1.5px solid #fff;
+  border-radius: 50px; }
+
+.contact_box p a {
+  font-weight: bold;
+  font-size: 16px; }
+
+.pol1 {
+  color: #fff;
+  background-color: #000; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #F90000; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
